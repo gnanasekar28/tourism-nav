@@ -5,55 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unique Place</title>
     <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="./Login1.css">
+     <link rel="stylesheet" href="./ssss.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="./Images/unique place-1.png">  
-</head>
+   <style>
+    center{
+    margin-left: 190%;   
+    }
+
+   </style>
+
+
+  </head>
   <body>
 
     <header>
-      <a href="#" class="brand">Unique Place</a>
+      <a href="./final.html" class="brand">Unique Place</a>
       <div class="menu-btn"></div>
       <div class="navigation">
         <div class="navigation-items">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Explore</a>
-          <a href="#">Gallery</a>
-          <a href="#">Contact</a>
+          <a href="./final.html">Home</a>
+          <a href="./About.html">About</a>
+          <a href="./Explore.html">Explore</a>
+          <a href="./Gallery.html">Gallery</a>
+          <a href="./Contact.html">Contact</a>
+          <button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button>
+          <!-- <a href="./Login1.html" >My Account</a>   -->
         </div>
+        <!-- <div class="GOL"></div> -->
+        <div id='login-form'class='login-page'>
+          <div class="form-box">
+              <div class='button-box'>
+                  <div id='btn'></div>
+                  <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                  <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+              </div>
+              <label for="show" class="close-btn fas fa-times" title="close"></label>
+              <form id='login' class='input-group-login'>
+                  <input type='text'class='input-field'placeholder='Email Id' required >
+      <input type='password'class='input-field'placeholder='Enter Password' required>
+      <input type='checkbox'class='check-box'><span1>Remember Password</span1>
+      <button type='submit'class='submit-btn'>Log in</button>
+   </form>
+   <form id='register' class='input-group-register'>
+       <input type='text'class='input-field'placeholder='First Name' required>
+       <input type='text'class='input-field'placeholder='Last Name ' required>
+       <input type='email'class='input-field'placeholder='Email Id' required>
+       <input type='password'class='input-field'placeholder='Enter Password' required>
+       <input type='password'class='input-field'placeholder='Confirm Password'  required>
+       <input type='checkbox'class='check-box'><span1>I agree to the terms and   conditions</span1>                                                conditions</span>
+                  <button type='submit'class='submit-btn'>Register</button>
+         </form>
+          </div>
       </div>
+  </div>
+            </div>
+         </div>
+        </div>
+         
+         
+      
     </header>
 
     <section class="home">
-      <video class="video-slide active" src="./Media/1.mp4" autoplay muted loop></video>
-      <video class="video-slide" src="./Media/2.mp4" autoplay muted loop></video>
-      <video class="video-slide" src="./Media/3.mp4" autoplay muted loop></video>
+      <video class="video-slide active" src="./Media/6.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="./Media/7.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="./Media/8.2.mp4" autoplay muted loop></video>
       <video class="video-slide" src="./Media/4.mp4" autoplay muted loop></video>
-      <video class="video-slide" src="./Media/5.mp4" autoplay muted loop></video>
+      <video class="video-slide" src="./Media/11.mp4" autoplay muted loop></video>
       <div class="content active">
-        <h1>Wonderful.<br><span>Island</span></h1>
+        <h1>Iconic.<br><span>Place</span></h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a href="#">Read More</a>
+        <a href="./Iconic.html">Read More</a>
       </div>
       <div class="content">
         <h1>Camping.<br><span>Enjoy</span></h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a href="#">Read More</a>
+        <a href="./camping.html">Read More</a>
       </div>
       <div class="content">
         <h1>Adventures.<br><span>Off Road</span></h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a href="#">Read More</a>
+        <a href="./Advent.html">Read More</a>
       </div>
       <div class="content">
         <h1>Road Trip.<br><span>Together</span></h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a href="#">Read More</a>
+        <a href="./road.html">Read More</a>
       </div>
       <div class="content">
         <h1>Feel Nature.<br><span>Relax</span></h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a href="#">Read More</a>
+        <a href="./natural.html">Read More</a>
       </div>
       <div class="media-icons">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -108,6 +152,65 @@
       });
     });
     </script>
+    <script>
+        var x=document.getElementById('login');
+		var y=document.getElementById('register');
+		var z=document.getElementById('btn');
+		function register()
+		{
+			x.style.left='-400px';
+			y.style.left='50px';
+			z.style.left='110px';
+		}
+		function login()
+		{
+			x.style.left='50px';
+			y.style.left='450px';
+			z.style.left='0px';
+		}
+    </script>
+    <script>
+     
+        var model = document.getElementById('login-form');
+        window.onclick = function(event) 
+        {
+            if (event.target == model) 
+            {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+   <!-- ----------------------footer ------------------------------------->
+  <div class="footer">
+  <div class="links">
+      <h3>Quick Links</h3>
+      <ul>
+          <li>Offers & Discounts</li>
+          <li>Get Coupon</li>
+          <li>Contact Us</li>
+          <li>About</li>
+      </ul>
+  </div>
+  <div class="links">
+      <h3>New Products</h3>
+      <ul>
+          <li>Woman Cloth</li>
+          <li>Fashion Accessories</li>
+          <li>Man Accessories</li>
+          <li>Rubber made Toys</li>
+      </ul>
+  </div>
+  <div class="links">
+      <h3>Support</h3>
+      <ul>
+          <li>Frequently Asked Questions</li>
+          <li>Report a Payment Issue</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+      </ul>
+  </div>
+</div> 
+
 
   </body>
 </html>
